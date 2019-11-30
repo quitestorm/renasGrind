@@ -1,0 +1,106 @@
+body {
+  background: #f12711; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #f5af19,
+    #f12711
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #f5af19,
+    #f12711
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  height: 80em;
+  border: 2em solid cyan;
+  color: rgb(127, 248, 71);
+  font-family: "Courgette", cursive;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  width: 92%;
+  height: 3.5em;
+  border: 1em solid rgb(126, 243, 91);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(126, 243, 91);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: magenta;
+}
+
+.title {
+  margin-top: 5em;
+  padding: 0em;
+}
+
+.coffee {
+  margin-left: 2em;
+  width: 15em;
+  margin-top: 5em;
+  border-radius: 85%;
+  padding: 0em;
+  border: 2rem solid rgb(248, 194, 17);
+}
+
+.weltext {
+  font-size: 6em;
+  color: rgb(12, 247, 110);
+  margin-left: 3em;
+  padding: 0em;
+  margin-right: 0em;
+  font-family: "Courgette", cursive;
+}
+
+.sun {
+  margin-left: 50em;
+  margin-top: -50em;
+  width: 10em;
+  border-radius: 25%;
+  border: 2rem solid blue;
+}
+
+.sun2 {
+  margin-top: 5em;
+  width: 10em;
+  border-radius: 25%;
+  border: 2rem solid blue;
+  margin-bottom: -8em;
+}
+
+.text1 {
+  font-family: "Courgette", cursive;
+  font-size: 2em;
+  color: #d3f707;
+  margin-left: 3em;
+  font-family: "Courgette", cursive;
+}
+
+.text2 {
+  font-family: "Courgette", cursive;
+  font-size: 2em;
+  color: #2f6495e3;
+}
+
+.dis {
+  font-size: 2em;
+  color: red;
+  border: 1em double chartreuse;
+}

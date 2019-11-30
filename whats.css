@@ -1,0 +1,118 @@
+body{
+    background: #fc00ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-repeat: no-repeat;    
+font-weight: 400;
+font-size: 1.5em;
+font-family: 'Ultra', serif;
+
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 92%;
+ height: 3.5em;
+border: 1em solid rgb(126, 243, 91);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(126, 243, 91);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: magenta;
+  }
+  
+  
+  .date{
+    margin-top: 8em;
+    color: cyan;
+    font-weight: 900;
+  }
+
+  /* .whats1{
+    font-weight: 400;
+    font-size: 1.5em;
+    font-family: 'Ultra', serif;
+    animation-name: colorchange;
+    animation-duration: 15s;
+  } */
+
+  .learn{
+    border: 2rem solid rgb(247, 6, 215);
+    
+  }
+
+  .whats4div1{
+    margin-right: 0em;
+    height: 15em;
+    width: 15em;
+    background-image: url("./img/happypups.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  }
+
+  
+  .whats4div2{
+    margin-top: -15em;
+    margin-left: 20em;
+    height: 15em;
+    width: 15em;
+    background-image: url("./img/happypups.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+
+
+  .animation{
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+    animation-name: colorchange;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    -webkit-animation-name: colorchange;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-delay: 5s;
+    -webkit-animation-iteration-count: infinite;
+  }
+  
+
+  .animation:hover{
+    width: 300px;
+  }
+
+  @-webkit-keyframes colorchange {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+  
+  /* Standard syntax */
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+
+  .css{
+    height: 15em;
+    width: auto;
+    border: 1em solid yellow;
+  }
