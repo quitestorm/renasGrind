@@ -11,7 +11,7 @@ body {
       #f12711
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-repeat: no-repeat;
-    height: 80em;
+
     border: 2em solid cyan;
     color: rgb(127, 248, 71);
     font-family: "Courgette", cursive;
@@ -51,4 +51,22 @@ body {
 .PetProj{
  font-size: 2em;
  background-color: blueviolet;
+}
+
+
+hr{
+  height: 1em;
+  background-color: aqua;
+  border: 1rem solid purple;
+}
+
+.Dlyn{
+  font-size: 2em;
+  background-color: rgb(52, 7, 251);
+}
+
+.JuansRest{
+  font-size: 2em;
+  background-color: rgb(7, 251, 137);
+  color: red;
 }
