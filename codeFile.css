@@ -85,3 +85,10 @@ border: 1em solid rgb(66, 98, 240);
     height: 1.8em;
     font-weight: 900; 
 }
+
+
+.responsive{
+  font-size: 1.5em;
+  color: blue;
+  font-weight: 900;
+}
