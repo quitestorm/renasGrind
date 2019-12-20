@@ -6,7 +6,7 @@ background-repeat: no-repeat;
 font-weight: 400;
 font-size: 1.5em;
 font-family: 'Ultra', serif;
-
+height: auto;
 }
 
 
@@ -194,3 +194,34 @@ border: 1em solid rgb(126, 243, 91);
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+.school{
+  width:45em;
+  height: 10em;
+  padding: 1em;
+  border: .8em double lime;
+  margin-left: 1em;
+}
+
+.mouse{
+  margin-left: 25em;
+  margin-top: -78em;
+}
+
+.mice{
+width: 45%;
+}
+
+.micePara{
+  width: 15em;
+  color: #00dbde;
+  
+}
+
+
+.mousePara{
+  
+  color: #00dbde;
+  margin-left: 26em;
+  margin-top: -5em;
+}
