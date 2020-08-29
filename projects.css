@@ -74,3 +74,16 @@ hr{
   font-size: 2em;
    color: rgb(69, 105, 33);
 }
+
+.responsive{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video{
+  height: 420px;
+  width: auto;
+}
