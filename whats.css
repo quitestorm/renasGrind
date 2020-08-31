@@ -72,18 +72,21 @@ border: 1em solid rgb(126, 243, 91);
   background-repeat: no-repeat;
   }
 .canvas1{
-  height: 85em;
-  width: 15em;
+  height: 15em;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
   
-.canvas2{
-  height: 35em;
-  width: 15em;
-}
+
 
   .whats4div2{
-    
-    height: 100%;
+    max-width: 100%;
+  height: 15em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
     background-image: url("./img/happypups.jpg");
   background-size: cover;
   background-repeat: no-repeat;
