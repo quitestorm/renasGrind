@@ -1,0 +1,43 @@
+.aboutBody{
+    background: #FDFC47;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #24FE41, #FDFC47);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #24FE41, #FDFC47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Gloria Hallelujah', cursive;
+background-repeat: no-repeat;
+
+}
+
+
+
+  
+
+  .schedule{
+      margin-top: 7em;
+      color: purple;
+     
+  }
+ 
+  hr{
+  background-color: cyan;
+    height: 1em;
+  }
+
+  .aboutme{
+ 
+    font-size: 3em;
+    color: rgb(251, 99, 43);
+    font-weight: 900;
+  }
+
+  .about{
+    font-size: 1.5em;
+    font-weight: 900;
+    color: rgba(9, 46, 252, 0.965);
+  }
+
+  .rena{
+    height: 15em;
+    width: 15em;
+    border: 1rem solid blue;
+    margin-top:5em;
+  }
