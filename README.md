@@ -1,2 +1,0 @@
-# renasGrind
- blog
