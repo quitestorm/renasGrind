@@ -52,7 +52,7 @@ padding-right: 2em;
   .whats4div1{
     height: 5em;
     width: 5em;
-   background-image: url("../img/happypups.jpg");
+   background-image: url("./img/happypups.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   }
@@ -72,7 +72,7 @@ padding-right: 2em;
   display: block;
   margin-left: auto;
   margin-right: auto;
-    background-image: url("../img/happypups.jpg");
+    background-image: url("./img/happypups.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   }
