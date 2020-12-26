@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+    button{
+        height: 5em;
+        width: 8em;
+        background-color: cyan;
+        margin: 4em;
+    }
+
+    p{
+        background-color: lightgreen;
+    }
+</style>
+
+<h1>Targeting elements without classes or ids</h1>
+<div class="elem">
+    <p>Target Current node</p>
+    <ul><h3>unordered list inside of a div</h3>
+        <li>This is the parent<input onclick="currentElement()" type="radio"> The radio button itsel here is the current element</li>
+        <li>This is the paernt of the parent<div>his input is inside a div wrapped in a list item
+            <input onfocus="currentElement()" type="text" placeholder="current element"></li>
+         
+        <button style="background-color: orange;" onclick="currentElement()" >current li element</button></li> 
+    </ul>
+    <button style="background-color: orange;"  onclick="currentElement()" >current div element</button></li> 
+</div>
+
+
+<div class="parelem">
+    <p>Target Parent node</p>
+    <ul><h3>unordered list inside of a div</h3>
+        <li>This is the parent of the input <input onclick="pareElement()" type="radio">red</li>
+        <li>This is the paernt of the parent of the input<div> This input is inside a div wrapped in a list item<input onclick="pareElement()" type="radio">purple</li>
+         
+        <button onclick="pareElement()" >current li element</button></li> 
+    </ul>
+    <button onclick="pareElement()" >current Div element</button></li> 
+</div>
+
+<div class="add">
+<h3>Adding an element</h3>
+    <div id="div1">this button will add a paragraph to the an already existing  div
+        <button style="background-color: magenta;" 
+        onclick="addElement()">Create Element</button></div>
+   
+</div>
+
+
+<div class="addToParentCurrent">
+    <h3>Adding an element to current parent element</h3>
+        <div id="div1">this button will add a paragraph to the parent div pf the current element.  This div is the parent node of the button
+            <button style="background-color: rgb(5, 248, 17);" 
+            onclick="addToParentCurrentElement()">Create to current parent Element</button></div>
+       
+        
+    </div>
+    
+
+    <div class="addToCurrent" style="background-color: rgb(209, 209, 8);" >
+        <h3>Adding an element to current element</h3>
+            <div id="div1">this button will add a paragraph to the  current element.  Thie button is the current element
+                <button style="background-color: rgb(248, 244, 5);" 
+                onclick="addToCurrentElement()">Create to current button Element</button></div>
+         
+             
+        </div>
+        
+
+    <script>
+    function currentElement() {
+        var element = document.activeElement;
+        console.log(element);
+      
+        if (element) {
+          element.remove([0]);
+        }
+      } 
+
+ 
+      
+alert("what")
+      function pareElement() {
+        var element = document.activeElement;
+        console.log(element.parentNode);
+      
+        if (element.parentNode) {
+          element.parentNode.remove([0]);
+        }
+      } 
+      
+
+      function addElement() {
+        var para = document.createElement("p");
+var node = document.createTextNode("This is the text inside of a paragraph element we just created.");
+para.appendChild(node);
+var element = document.getElementById("div1");
+element.appendChild(para);
+      }
+
+
+      function addToParentCurrentElement() {
+        var para = document.createElement("p");
+var node = document.createTextNode("This is the text inside of a paragraph element we just added to the current parent element.");
+para.append(node);
+var element = document.activeElement;
+element.parentNode.append(para);
+      }
+
+      function addToCurrentElement() {
+        var para = document.createElement("button");
+var node = document.createTextNode("This is the text inside of a paragraph element we just added to the current  element.");
+para.append(node);
+var element = document.activeElement;
+console.log(element)
+element.append(para);
+      }
+
+
+     
+        var para = document.createElement("p");
+var node = document.createTextNode("This is the text  we just added to the current  element when the browser loaded.");
+para.append(node);
+var element = document.activeElement;
+console.log(element)
+element.append(para);
+      
+
+</script>
+
+</body>
+</html>
