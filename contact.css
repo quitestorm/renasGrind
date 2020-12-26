@@ -22,6 +22,10 @@
     }
 
 
+    .nav{
+      position: fixed;
+    }
+    
 
   .title {
     margin-top: 5em;

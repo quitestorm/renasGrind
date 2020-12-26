@@ -9,6 +9,10 @@ background-repeat: no-repeat;
 
 
 
+.nav{
+  position: fixed;
+}
+
   
 
   .schedule{
